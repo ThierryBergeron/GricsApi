@@ -23,7 +23,7 @@
 {   
     "Target":"School"
 }
-// Exemple requête de tous les écoles, prénom : loic et sexe : masculin
+// Exemple requête de tous les étudiants, prénom : loic et sexe : masculin
 {   
     "Target":"Student",
     "Where":{
