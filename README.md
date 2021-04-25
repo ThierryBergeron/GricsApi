@@ -3,7 +3,7 @@
 - adresse Serveur https://simpleapi20210425111657.azurewebsites.net/api/queries
 ## Route Api
 #### Authorization : 
-POST : `/api/authentication`
+- POST : `/api/authentication`
 ```
 // application/json
 {
@@ -12,12 +12,12 @@ POST : `/api/authentication`
 }
 ```
 #### Génération des données : La fonctionnalité des routes a été désactivée
-POST : `/api/mockgenerator/generate_schools`
-POST : `/api/mockgenerator/generate_teachers`
-POST : `/api/mockgenerator/generate_students`
+- POST : `/api/mockgenerator/generate_schools`
+- POST : `/api/mockgenerator/generate_teachers`
+- POST : `/api/mockgenerator/generate_students`
 
 #### Recherche des données : une seule route avec des paramètres passés en corps
-POST : `/api/Queries`
+- POST : `/api/Queries`
 ```
 // Exemple requête de tous les écoles
 {   
