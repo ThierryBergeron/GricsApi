@@ -78,34 +78,34 @@ Les données liées à ce projet ont été généré de façons aléatoire, elle
 Les données sont sauvegardé dans une base données NoSql soit google firestore.
 ### School
 ```
-    Id:string,
-    Name:string,
-    TelephoneNumber:string
+    Id: string,
+    Name: string,
+    TelephoneNumber: string
 ```
 ### Teacher
 ```
-    Id:string,
+    Id: string,
     FirstName: string,
     LastName: string,
     Sex: string
-    SchoolId:string
+    SchoolId: string
 ```
 ### Student
 ```
-    Id:string,
+    Id: string,
     FirstName: string,
     LastName: string,
     Sex: string,
     Dob: DateTime,
-    TeacherId:string,
-    SchoolId:string
+    TeacherId: string,
+    SchoolId: string
 ```
 ### ReportCard
 ```
-    Id:string,
-    TeacherId:string,
-    SchoolId:string,
-    StudentId:string
+    Id: string,
+    TeacherId: string,
+    SchoolId: string,
+    StudentId: string
     ...
 ```
 
