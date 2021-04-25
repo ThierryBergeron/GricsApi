@@ -75,7 +75,7 @@
 ```
 ## Données
 Les données liées à ce projet ont été générées de façon aléatoire; elles se divisent en quatre classes qui représentent les écoles (School), les enseignants (Teacher), les élèves (Student) et leur bulletin de notes (ReportCard).
-Les données sont sauvegardées dans une base données NoSql, Google Firestore.
+Les données sont sauvegardées dans une base de données NoSql, Google Firestore.
 ### School
 ```
     Id: string,
