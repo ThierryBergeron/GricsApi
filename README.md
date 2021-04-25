@@ -11,7 +11,7 @@ POST : `/api/authentication`
   "password":"password123"
 }
 ```
-#### Génération des données : La fonctionnalité des routes a été désactivé
+#### Génération des données : La fonctionnalité des routes a été désactivée
 POST : `/api/mockgenerator/generate_schools`
 POST : `/api/mockgenerator/generate_teachers`
 POST : `/api/mockgenerator/generate_students`
@@ -19,11 +19,11 @@ POST : `/api/mockgenerator/generate_students`
 #### Recherche des données : une seule route avec des paramètres passés en corps
 POST : `/api/Queries`
 ```
-// Exemple requete de tous les ecoles
+// Exemple requête de tous les écoles
 {   
     "Target":"School"
 }
-// Exemple requete de tous les ecoles, prenom loic et sexe masculin
+// Exemple requête de tous les écoles, prénom : loic et sexe : masculin
 {   
     "Target":"Student",
     "Where":{
@@ -31,7 +31,7 @@ POST : `/api/Queries`
         "Sex" :"M"
     }
 }
-// Exemple requete des etudiants avec un prenom loic qui vont a lecole outremont
+// Exemple requête des étudiants avec un prénom : loic qui vont à l'école outremont
 {   
     "Target":"Student",
     "Where":{
@@ -44,7 +44,7 @@ POST : `/api/Queries`
         }
     }
 }
-// Exemple requete des etudiants avec un prenom loic, nom famille leclerc, qui vont a lecole outremont
+// Exemple requête des étudiants avec un prénom : loic, nom de famille : leclerc, qui vont à l'école outremont
 {   
     "Target":"Student",
     "Where":{
@@ -58,7 +58,7 @@ POST : `/api/Queries`
         }
     }
 }
-// Exemple bulletin de note pour loic leclerc qui va a l'ecole outremont
+// Exemple bulletin de note pour loic leclerc qui va à l'école outremont
 {   
     "Target":"ReportCard",
     "Compound":{
@@ -75,7 +75,7 @@ POST : `/api/Queries`
 ```
 ## Données
 Les données liées à ce projet ont été générées de façons aléatoire, elles se divisent en quatre classes qui représentent les écoles(School), les enseignants(Teacher), les élèves(Student) et leur bulletin de notes (ReportCard).
-Les données sont sauvegardé dans une base données NoSql soit google firestore.
+Les données sont sauvegardées dans une base données NoSql, Google Firestore.
 ### School
 ```
     Id: string,
@@ -110,4 +110,4 @@ Les données sont sauvegardé dans une base données NoSql soit google firestore
 ```
 
 ## Authorization/Authentification
-L'authentification se fait via JWT json web token en tant que Bearer token dans le authorization header.
+L'authentification se fait avec les json web token (JWT) en tant que Bearer token dans le _Authorization header_.
