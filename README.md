@@ -74,7 +74,7 @@ POST : `/api/Queries`
 }
 ```
 ## Données
-Les données liées à ce projet ont été généré de façons aléatoire, elle compte quatre classes qui représente les écoles(School), les enseignants(Teacher), les élèves(Student) et leur bulletin de notes (ReportCard).
+Les données liées à ce projet ont été généré de façons aléatoire, elles comptent quatre classes qui représentent les écoles(School), les enseignants(Teacher), les élèves(Student) et leur bulletin de notes (ReportCard).
 Les données sont sauvegardé dans une base données NoSql soit google firestore.
 ### School
 ```
