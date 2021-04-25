@@ -17,7 +17,7 @@
 - POST : `/api/mockgenerator/generate_students`
 
 #### Recherche des données : une seule route avec des paramètres passés en corps
-- POST : `/api/Queries`
+- POST : `/api/queries`
 ```
 // Exemple requête de tous les écoles
 {   
