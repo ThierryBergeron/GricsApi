@@ -19,7 +19,7 @@
 #### Recherche des données : une seule route avec des paramètres passés en corps
 - POST : `/api/queries`
 ```
-// Exemple requête de tous les écoles
+// Exemple requête de toutes les écoles
 {   
     "Target":"School"
 }
@@ -58,7 +58,7 @@
         }
     }
 }
-// Exemple bulletin de note pour loic leclerc qui va à l'école outremont
+// Exemple bulletin de notes pour loic leclerc qui va à l'école outremont
 {   
     "Target":"ReportCard",
     "Compound":{
@@ -74,7 +74,7 @@
 }
 ```
 ## Données
-Les données liées à ce projet ont été générées de façons aléatoire, elles se divisent en quatre classes qui représentent les écoles(School), les enseignants(Teacher), les élèves(Student) et leur bulletin de notes (ReportCard).
+Les données liées à ce projet ont été générées de façon aléatoire; elles se divisent en quatre classes qui représentent les écoles(School), les enseignants(Teacher), les élèves(Student) et leur bulletin de notes (ReportCard).
 Les données sont sauvegardées dans une base données NoSql, Google Firestore.
 ### School
 ```
