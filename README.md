@@ -1,6 +1,6 @@
 # Mock api pour grics
-adresse UI https://sgh-api.web.app/
-adresse Serveur https://simpleapi20210425111657.azurewebsites.net/api/queries
+- adresse UI https://sgh-api.web.app/
+- adresse Serveur https://simpleapi20210425111657.azurewebsites.net/api/queries
 ## Route Api
 #### Authorization : 
 POST : `/api/authentication`
